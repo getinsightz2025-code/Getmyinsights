@@ -3,37 +3,18 @@
 import { motion } from 'framer-motion';
 import { Container } from '@/components/common/Container';
 import { 
-  TrendingUp, 
-  DollarSign, 
-  BarChart3, 
-  Search, 
-  Bell, 
-  Eye, 
   ArrowRight,
   Zap,
-  Target,
-  Clock,
-  Users,
-  Star,
-  TrendingDown,
-  CheckCircle,
-  Globe,
-  Smartphone,
-  Monitor,
-  Filter,
-  Settings,
-  Download,
-  Share2,
-  AlertTriangle,
   X,
   CheckCircle2,
-  Timer,
-  Award,
   TrendingUp as TrendingUpIcon,
-  DollarSign as DollarSignIcon,
   Users as UsersIcon,
   Globe as GlobeIcon,
-  BarChart as BarChartIcon
+  BarChart as BarChartIcon,
+  Globe,
+  Smartphone,
+  Target,
+  BarChart3
 } from 'lucide-react';
 
 export function DemoSection() {
@@ -161,7 +142,7 @@ export function DemoSection() {
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             See the real impact of market intelligence on e-commerce businesses. 
-            The numbers don't lie - those with the right tools are winning big.
+            The numbers don&apos;t lie - those with the right tools are winning big.
           </p>
         </motion.div>
 
@@ -309,7 +290,7 @@ export function DemoSection() {
               Ready to Join the Winners?
             </h3>
             <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-              Don't let your competitors get ahead. Join the waitlist and be among the first to experience 
+              Don&apos;t let your competitors get ahead. Join the waitlist and be among the first to experience 
               the future of market intelligence.
             </p>
             <motion.button

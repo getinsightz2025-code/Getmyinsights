@@ -134,7 +134,7 @@ export function ContactSupport() {
             Need Help?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Have a question or need assistance? We're here to help you succeed with GetInsightZ.
+            Have a question or need assistance? We&apos;re here to help you succeed with GetInsightZ.
           </p>
         </motion.div>
 
@@ -207,8 +207,8 @@ export function ContactSupport() {
                 <Send className="w-5 h-5 mr-2" />
                 Contact Now
               </Button>
-              <p className="text-sm text-gray-500 mt-4">
-                Click to send us a message and we'll get back to you soon
+                              <p className="text-sm text-gray-500 mt-4">
+                Click to send us a message and we&apos;ll get back to you soon
               </p>
             </motion.div>
           </motion.div>
@@ -229,7 +229,7 @@ export function ContactSupport() {
                     Send us a Message
                   </h3>
                   <p className="text-gray-600 text-sm">
-                    We'll get back to you within 24 hours
+                    We&apos;ll get back to you within 24 hours
                   </p>
                 </div>
                 <button
@@ -358,7 +358,7 @@ export function ContactSupport() {
               </form>
               
               <p className="text-sm text-gray-500 text-center mt-4">
-                You'll receive a confirmation email once your message is sent
+                You&apos;ll receive a confirmation email once your message is sent
               </p>
             </div>
           </motion.div>
@@ -377,7 +377,7 @@ export function ContactSupport() {
               </div>
               <h4 className="text-xl font-semibold text-gray-900 mb-2">Message Sent!</h4>
               <p className="text-gray-600 mb-6">
-                We've received your message and will get back to you within 24 hours.
+                We&apos;ve received your message and will get back to you within 24 hours.
               </p>
               <Button
                 onClick={() => {

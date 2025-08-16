@@ -13,43 +13,24 @@ import {
   Eye,
   Bell,
   Target,
-  Smartphone,
   Monitor,
   Globe,
   Activity,
-  TrendingUp as TrendingUpIcon,
-  DollarSign as DollarSignIcon,
-  BarChart3 as BarChart3Icon,
-  Play,
-  Shield,
   Clock,
   Users,
   Rocket,
-  Sparkles,
-  ArrowUpRight,
-  ArrowDownRight,
-  BarChart,
-  PieChart,
-  LineChart,
-  Lightbulb,
-  TrendingDown,
-  Database,
-  Cpu,
   Package,
   ShoppingCart,
   Star,
-  Heart,
   Flame,
   Target as TargetIcon,
-  Layers,
-  Filter,
-  RefreshCw,
-  TrendingUp as TrendingUpIcon2
+  TrendingUp as TrendingUpIcon2,
+  Shield,
+  TrendingDown
 } from 'lucide-react';
-import { useState } from 'react';
+
 
 export function HowItWorks() {
-  const [activeStep, setActiveStep] = useState(0);
 
   const steps = [
     {
@@ -174,7 +155,7 @@ export function HowItWorks() {
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             From discovering the next viral product to scaling your business, 
-            we've streamlined the entire process into four powerful steps
+            we&apos;ve streamlined the entire process into four powerful steps
           </p>
         </motion.div>
 

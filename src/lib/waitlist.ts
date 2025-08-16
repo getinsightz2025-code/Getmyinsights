@@ -24,7 +24,7 @@ export const waitlistService = {
       }
 
       // Add new entry
-      const { data: entry, error } = await supabase
+      const { error } = await supabase
         .from('waitlist')
         .insert([
           {

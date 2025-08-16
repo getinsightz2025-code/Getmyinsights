@@ -18,7 +18,7 @@ export function FinalCTA() {
             Your Next Bestseller is Waiting
           </h2>
           <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">
-            Don't just react — lead the market. Start your free trial today and discover your next winning product.
+            Don&apos;t just react — lead the market. Start your free trial today and discover your next winning product.
           </p>
           <motion.div
             whileHover={{ scale: 1.05 }}

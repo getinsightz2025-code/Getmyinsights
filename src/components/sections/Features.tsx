@@ -8,7 +8,6 @@ import {
   Package, 
   BarChart3, 
   Search, 
-  MessageSquare, 
   LayoutDashboard, 
   Globe, 
   Users,

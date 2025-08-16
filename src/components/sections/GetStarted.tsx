@@ -161,7 +161,7 @@ export function GetStarted() {
               Early Access Benefits
             </h3>
             <div className="space-y-6">
-              {benefits.map((benefit, index) => (
+              {benefits.map((benefit) => (
                 <div key={benefit.title} className="flex items-start space-x-4">
                   <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -14,11 +14,9 @@ import {
   ArrowRight,
   Brain,
   Globe,
-  Lock,
   Sparkles,
   Award,
   Rocket,
-  Lightbulb,
   DollarSign
 } from 'lucide-react';
 
@@ -322,7 +320,7 @@ export function WhyGetInsightZ() {
               Ready to Experience the Difference?
             </h3>
             <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-              Join the growing community of sellers who've discovered what real market intelligence looks like
+              Join the growing community of sellers who&apos;ve discovered what real market intelligence looks like
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}

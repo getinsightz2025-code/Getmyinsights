@@ -4,16 +4,13 @@ import { motion } from 'framer-motion';
 import { Container } from '@/components/common/Container';
 import { 
   HelpCircle, 
-  Shield, 
   Clock, 
   DollarSign, 
-  Zap,
   CheckCircle,
   ArrowRight,
   Brain,
   TrendingUp,
-  Globe,
-  Target
+  Globe
 } from 'lucide-react';
 
 export function FAQ() {
@@ -86,8 +83,8 @@ export function FAQ() {
           </h2>
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Everything you need to know about GetInsightZ's market intelligence features. 
-            Can't find what you're looking for? Our support team is here to help.
+            Everything you need to know about GetInsightZ&apos;s market intelligence features. 
+            Can&apos;t find what you&apos;re looking for? Our support team is here to help.
           </p>
         </motion.div>
 
@@ -139,7 +136,7 @@ export function FAQ() {
               Still Have Questions?
             </h3>
             <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-              Our support team is here to help you get the most out of GetInsightZ's market intelligence features. 
+              Our support team is here to help you get the most out of GetInsightZ&apos;s market intelligence features. 
               We typically respond within 2 hours during business hours.
             </p>
             <motion.button
