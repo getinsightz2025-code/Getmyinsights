@@ -83,16 +83,8 @@ export function Header() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="hidden lg:flex items-center space-x-4"
+            className="hidden lg:block"
           >
-            <Button
-              variant="secondary"
-              size="md"
-              onClick={() => window.location.href = '/dashboard'}
-              className="group"
-            >
-              Dashboard
-            </Button>
             <Button
               variant="primary"
               size="md"
@@ -155,16 +147,8 @@ export function Header() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.3, delay: 0.4 }}
-                    className="pt-4 border-t border-gray-200 space-y-3"
+                    className="pt-4 border-t border-gray-200"
                   >
-                    <Button
-                      variant="secondary"
-                      size="lg"
-                      onClick={() => window.location.href = '/dashboard'}
-                      className="w-full group"
-                    >
-                      Dashboard
-                    </Button>
                     <Button
                       variant="primary"
                       size="lg"
